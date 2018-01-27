@@ -87,7 +87,7 @@ the goal is to create a flow that most people will find intuitive.
 
 The additional funding for this proposal will add weight to the UX/UI
 desing work that needs to happen up front. This new budget proposal earmarks
-$10,000 per month to the UX process alone.
+$8,000 per month to the UX process alone.
 
 ## Documentation
 
@@ -107,7 +107,8 @@ Project Manager | 7,500
 Code Review | 4,000
 UX/UI Bounty | 8,000
 Coding Bounty | 12,500
-Total | 32,000
+Bitshare Foundation | 3,000
+Total | 35,000
 
 
 1. Enhance the experience for existing users
