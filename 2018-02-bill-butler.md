@@ -21,12 +21,10 @@ discussions:
 payments:
 paymentaccount: bitshares-ui
 invoices:
-price: 210,000$
+price: up to 210,000$ (budget)
 duration: 6 months
 start: 2018/02/15
 end: 2018/08/15
-redirect_from: 
- - /workers/2018-02-bill-butler
 ---
 
 # Introduction
@@ -38,15 +36,20 @@ the full power of the exchange, voting, asset creation etc.
 
 The goal of this worker proposal is to build upon the progress of the past years improvements to the UI.
 
+Being a budget worker, the price tag is an upper bound for the costs
+that this worker proposal can have at most. Funds are used on a
+cost-basis and are accounted for hourly. After termination of the
+worker proposal, unused funds are given back to the BitShares DAC.
+
 # Bounties
 
 Issues located at
-[bitshares/bitshares-ui](https://github.com/bitshares/bitshares-ui/issues)
+[BitShares/BitShares-ui](https://github.com/BitShares/BitShares-ui/issues)
 will be gathered into Milestones with a two week release schedule.
 Anyone in the community will be able to claim, work and submit a PR for
 that issue. If the PR is accepted, the user will be paid according to
 the terms on the
-[README.md](https://github.com/bitshares/bitshares-ui/blob/master/README.md)
+[README.md](https://github.com/BitShares/BitShares-ui/blob/master/README.md)
 under the Development Process heading.
 
 # Prioritization
@@ -67,8 +70,8 @@ application.
 
 ## Responsive Design
 
-In the past 6 months, the UI team has improved the useabilility of the
-Bitshares wallet in desktop mode, but the performance on the mobile view
+In the past 6 months, the UI team has improved the usability of the
+BitShares wallet in desktop mode, but the performance on the mobile view
 has suffered. We have allocated additional funds with this worker to 
 invest in responsive design. It will be a priority to invest in work that
 makes useability on small screens enjoyable.
@@ -78,15 +81,17 @@ makes useability on small screens enjoyable.
 Tables, dropdowns, form fields, modals, fonts, icons, colors. We plan to
 seek community comment via github issues and mock ups to propose
 consistent ways to view all of the current information available in the
-BitShares Wallet.
+BitShares wallet.
 
 In some cases, this simply means we will alter a table to fit into an
 accepted style. We may propose to merge two separate views into one if
-it's discovered that they contain related information. Along the way,
-the goal is to create a flow that most people will find intuitive.
+it's discovered that they contain related information.
 
+## UX/UI
+
+Along the way, the goal is to create a flow that most people will find intuitive.
 The additional funding for this proposal will add weight to the UX/UI
-desing work that needs to happen up front. This new budget proposal earmarks
+design work that needs to happen up front. This new budget proposal earmarks
 $8,000 per month to the UX process alone.
 
 ## Documentation
@@ -97,17 +102,17 @@ need additional assistance.
 
 ## Budget
 
-Currently, updates to the bitshares-ui are handled by a small team of users who are claiming issues and being paid bounties on these issues. The only exceptions to this are Bill Butler and Sigve Kvalsvik who are both paid a flat rate to manage issues and code review respectively.
+Currently, updates to the BitShares-ui are handled by a small team of users who are claiming issues and being paid bounties on these issues. The only exceptions to this are Bill Butler and Sigve Kvalsvik who are both paid a flat rate to manage issues and code review respectively. Furthermore, the BitShares Blockchain Foundation seeks a management fee (<10%) for dealing with the on-chain worker proposal and offer transparent accounting.
 
 - Monthly
 
 Role | Amount (USD)
 --- | ---:
 Project Manager | 7,500
-Code Review | 4,000
+Code Review/Releases | 4,000
 UX/UI Bounty | 8,000
 Coding Bounty | 12,500
-Bitshare Foundation | 3,000
+BitShares Blockchain Foundation | 3,000
 Total | 35,000
 
 
@@ -126,15 +131,15 @@ Total | 35,000
 * Development Experience: Maintainer of BitShares-UI for a long time
   already, funded by multiple workers previously, creator of
   bitsharesblocks.com during BitShares 1, long-term member and developer
-  in the bitshares community, maintainer of bitsharesjs.
+  in the BitShares community, maintainer of bitsharesjs.
 * Platforms / Languages: NodeJS, React, Angular, and others
 
 Will perform code review for all contributors and merge PR's into staging and handle releases on a bi-monthly schedule. This includes:
 
 * Communicating with PR owners for change requests
-* Providing hints or help for obscure enpoints
+* Providing hints or help for obscure endpoints
 * Ensuring CI process automatically builds web and lite clients
-* Ensuring versions are properly updated on bitshares.org/download
+* Ensuring versions are properly updated on BitShares.org/download
 
 ## Bill Butler
 
@@ -142,7 +147,7 @@ Will perform code review for all contributors and merge PR's into staging and ha
 * Crypto Experience: 3 years, BTC, LTC, PTS, BTS 1.0/2.0, STEEM, PPY. Helped manage github issues a couple of years ago. Worked with svk.
 * Development Experience: Founded an ISP in 1993. NodeJS, Angular, PHP, CouchDB, SQL. UX/UI Experience. VP Engineering for a healthcare software development firm. Eight years experience managing development teams.
 
-As the project manager for bitshares/bitshares-ui, I will review all issues created (15 hours per week). I will mediate discussions on github around new features.
+As the project manager for BitShares/BitShares-ui, I will review all issues created (15 hours per week). I will mediate discussions on github around new features.
 Milestones will be created for each 2 week Sprint. Sprints will be
 populated with enough issues to occupy 90 hours of development work and 60 hour of UI/UX for the 2 week sprint.
 Understand that these hours are quality hours, not planning hours. As many in this field are aware, developers are always working on problems in their minds. In most cases I've found that a 15 hour task will require anywhere from 25 - 30 hours of a developer's time. Each issue will be tagged as feature / task / bug / duplicate / rejected. 
